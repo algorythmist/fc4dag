@@ -6,8 +6,8 @@ import org.jgrapht.graph.DefaultEdge
 
 class Edge : DefaultEdge() {
 
-    fun source()  : Weapon = super.getSource() as Weapon
-    fun target() : Weapon = super.getTarget() as Weapon
+    fun source(): Weapon = super.getSource() as Weapon
+    fun target(): Weapon = super.getTarget() as Weapon
 }
 
 fun buildGraph(weapons: List<Weapon>): Graph<Weapon, Edge> {
