@@ -19,7 +19,5 @@ internal class WeaponsGraphKtTest {
         assertEquals(17, graph.vertexSet().size)
         assertEquals(21, graph.edgeSet().size)
 
-
-
     }
 }
