@@ -1,7 +1,6 @@
 package com.tecacet.fc4
 
 import org.jgrapht.alg.TransitiveReduction
-import org.jgrapht.graph.DefaultEdge
 import org.jgrapht.nio.dot.DOTExporter
 import java.io.File
 
